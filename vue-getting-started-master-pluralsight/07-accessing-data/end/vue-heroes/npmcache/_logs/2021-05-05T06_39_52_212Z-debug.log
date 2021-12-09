@@ -1,0 +1,96 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install',
+0 verbose cli   '-g',
+0 verbose cli   'npm@7.11.2'
+0 verbose cli ]
+1 info using npm@7.5.2
+2 info using node@v14.15.1
+3 timing config:load:defaults Completed in 5ms
+4 timing config:load:file:C:\Users\ABH176\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 8ms
+5 timing config:load:builtin Completed in 8ms
+6 timing config:load:cli Completed in 4ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:file:C:\Users\ABH176\source\poc\Vue-learn\vue-getting-started-master\07-accessing-data\end\vue-heroes\.npmrc Completed in 2ms
+9 timing config:load:project Completed in 5ms
+10 timing config:load:file:C:\Users\ABH176\.npmrc Completed in 2ms
+11 timing config:load:user Completed in 2ms
+12 timing config:load:file:C:\Users\ABH176\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+13 timing config:load:global Completed in 2ms
+14 timing config:load:cafile Completed in 1ms
+15 timing config:load:validate Completed in 3ms
+16 timing config:load:setUserAgent Completed in 2ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 34ms
+19 verbose npm-session 2b18121b2d082c61
+20 timing npm:load Completed in 64ms
+21 timing arborist:ctor Completed in 1ms
+22 timing idealTree:init Completed in 40ms
+23 timing idealTree:userRequests Completed in 10ms
+24 silly idealTree buildDeps
+25 silly fetch manifest npm@7.11.2
+26 http fetch GET 304 https://registry.npmjs.org/npm 449ms (from cache)
+27 silly placeDep ROOT npm@7.11.2 OK for:  want: 7.11.2
+28 timing idealTree:#root Completed in 501ms
+29 timing idealTree:node_modules/npm Completed in 0ms
+30 timing idealTree:buildDeps Completed in 503ms
+31 timing idealTree:fixDepFlags Completed in 2ms
+32 timing idealTree Completed in 558ms
+33 timing reify:loadTrees Completed in 1069ms
+34 timing reify:diffTrees Completed in 18ms
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\npm',
+35 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npm',
+35 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npm.cmd',
+35 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npm.ps1',
+35 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npx',
+35 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npx.cmd',
+35 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npx.ps1'
+35 silly reify ]
+36 silly reify moves {
+36 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\npm': 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\.npm-Mfd4q8zd',
+36 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npm': 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\.npm-DAlbsJ9M',
+36 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npm.cmd': 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\.npm.cmd-N9yTskwf',
+36 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npm.ps1': 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\.npm.ps1-13LiQERq',
+36 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npx': 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\.npx-yGje9TuK',
+36 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npx.cmd': 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\.npx.cmd-z8pCrTKy',
+36 silly reify   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\npx.ps1': 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\.npx.ps1-9EVon1Im'
+36 silly reify }
+37 timing reify:retireShallow Completed in 27ms
+38 timing reify:createSparse Completed in 1ms
+39 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-7.11.2.tgz. Extracting by manifest.
+40 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-7.11.2.tgz 8977ms
+41 timing reifyNode:node_modules/npm Completed in 9002ms
+42 timing arborist:ctor Completed in 0ms
+43 timing reify:diffTrees Completed in 5ms
+44 timing reify:loadBundles Completed in 9851ms
+45 timing reify:unpack Completed in 1ms
+46 timing command:install Completed in 11211ms
+47 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\ABH176\AppData\Roaming\npm\node_modules\npm\node_modules\encoding\lib' -> 'C:\Users\ABH176\AppData\Roaming\npm\node_modules\.npm-Mfd4q8zd\node_modules\encoding\lib'
+48 verbose cwd C:\Users\ABH176\source\poc\Vue-learn\vue-getting-started-master\07-accessing-data\end\vue-heroes
+49 verbose Windows_NT 10.0.19042
+50 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "npm@7.11.2"
+51 verbose node v14.15.1
+52 verbose npm  v7.5.2
+53 error code EPERM
+54 error syscall rename
+55 error path C:\Users\ABH176\AppData\Roaming\npm\node_modules\npm\node_modules\encoding\lib
+56 error dest C:\Users\ABH176\AppData\Roaming\npm\node_modules\.npm-Mfd4q8zd\node_modules\encoding\lib
+57 error errno -4048
+58 error Error: EPERM: operation not permitted, rename 'C:\Users\ABH176\AppData\Roaming\npm\node_modules\npm\node_modules\encoding\lib' -> 'C:\Users\ABH176\AppData\Roaming\npm\node_modules\.npm-Mfd4q8zd\node_modules\encoding\lib'
+58 error  [Error: EPERM: operation not permitted, rename 'C:\Users\ABH176\AppData\Roaming\npm\node_modules\npm\node_modules\encoding\lib' -> 'C:\Users\ABH176\AppData\Roaming\npm\node_modules\.npm-Mfd4q8zd\node_modules\encoding\lib'] {
+58 error   errno: -4048,
+58 error   code: 'EPERM',
+58 error   syscall: 'rename',
+58 error   path: 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\encoding\\lib',
+58 error   dest: 'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\.npm-Mfd4q8zd\\node_modules\\encoding\\lib'
+58 error }
+59 error The operation was rejected by your operating system.
+59 error It's possible that the file was already in use (by a text editor or antivirus),
+59 error or that you lack permissions to access it.
+59 error
+59 error If you believe this might be a permissions issue, please double-check the
+59 error permissions of the file and its containing directories, or try running
+59 error the command again as root/Administrator.
+60 verbose exit -4048

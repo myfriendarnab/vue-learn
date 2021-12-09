@@ -1,0 +1,36 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'run',
+0 verbose cli   'start'
+0 verbose cli ]
+1 info using npm@7.5.2
+2 info using node@v14.15.1
+3 timing config:load:defaults Completed in 2ms
+4 timing config:load:file:C:\Users\ABH176\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 4ms
+5 timing config:load:builtin Completed in 4ms
+6 timing config:load:cli Completed in 3ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:file:C:\Users\ABH176\source\poc\Vue-learn\vue-getting-started-master\03-data-and-events\end\vue-heroes\.npmrc Completed in 2ms
+9 timing config:load:project Completed in 4ms
+10 timing config:load:file:C:\Users\ABH176\.npmrc Completed in 2ms
+11 timing config:load:user Completed in 2ms
+12 timing config:load:file:C:\Users\ABH176\AppData\Roaming\npm\etc\npmrc Completed in 2ms
+13 timing config:load:global Completed in 2ms
+14 timing config:load:cafile Completed in 0ms
+15 timing config:load:validate Completed in 3ms
+16 timing config:load:setUserAgent Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 22ms
+19 verbose npm-session 52d7146bccb6a7a1
+20 timing npm:load Completed in 46ms
+21 timing command:run-script Completed in 7ms
+22 verbose stack Error: missing script: start
+22 verbose stack     at runScript (C:\Users\ABH176\AppData\Roaming\npm\node_modules\npm\lib\run-script.js:54:11)
+23 verbose cwd C:\Users\ABH176\source\poc\Vue-learn\vue-getting-started-master\03-data-and-events\end\vue-heroes
+24 verbose Windows_NT 10.0.19042
+25 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ABH176\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
+26 verbose node v14.15.1
+27 verbose npm  v7.5.2
+28 error missing script: start
+29 verbose exit 1
